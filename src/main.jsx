@@ -24,13 +24,15 @@ import DetailsEvents from './componets/DetailsEvents';
 
        {
         path:'/',
-        element:<Home></Home>
+        element:<Home></Home>,
+        
        },
        {
         path:'/event/:Id',
         element:<DetailsEvents></DetailsEvents>,
         loader:()=> fetch('events.json')
        }
+       
 
 
 

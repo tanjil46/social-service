@@ -1,0 +1,55 @@
+[
+
+    {
+        "name": "John Doe",
+        "address": "123 Main Street, Cityville, USA",
+        "email": "johndoe@example.com",
+        "image": "https://i.ibb.co/2nx2nvy/customer1.png",
+        "review_text": "I had a great experience with this company. Their service was top-notch, and the staff was friendly and helpful."
+      },
+
+      {
+  "name": "Jane Smith",
+  "address": "456 Elm Avenue, Townsville, Canada",
+  "email": "janesmith@example.com",
+  "image": "https://i.ibb.co/9sMshRK/customer2.png",
+  "review_text": "I can't say enough good things about this business. They exceeded my expectations, and I would highly recommend them to anyone."
+},
+
+{
+    "name": "Robert Johnson",
+    "address": "789 Oak Road, Villagetown, UK",
+    "email": "robertjohnson@example.com",
+    "image": "https://i.ibb.co/BrDzDpC/customer3.jpg",
+    "review_text": "The service was exceptional, and the staff went above and beyond to assist me. I'm a satisfied customer."
+  },
+
+  
+{
+  "name": "Maria Rodriguez",
+  "address": "101 Pine Lane, Hamletville, Spain",
+  "email": "mariarodriguez@example.com",
+  "image": "https://i.ibb.co/xjkB66T/customer4.jpg",
+  "review_text": "I was impressed by the professionalism of the team. They made the entire process easy and stress-free."
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
