@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Elegant Garden Wedding",
+      "image": "https://i.ibb.co/wcLbNXT/Wedding.jpg",
+      "price": "$15,000",
+      "short_description": "A romantic garden wedding with a touch of luxury."
+    },
+    {
+      "id": 2,
+      "name": "Superhero Themed Birthday Bash",
+      "image": "https://i.ibb.co/T29wyhV/birthday.jpg",
+      "price": "$1,500",
+      "short_description": "A fun-filled birthday party for kids with a superhero theme."
+    },
+    {
+      "id": 3,
+      "name": "25th Anniversary Gala",
+      "image": "https://i.ibb.co/tQcTvj2/anniversery.jpg",
+      "price": "$10,000",
+      "short_description": "A grand celebration to commemorate 25 years of love and togetherness."
+    },
+    {
+      "id": 4,
+      "name": "Chic Rooftop Engagement Soiree",
+      "image": "https://i.ibb.co/CHzbb4L/engage.jpg",
+      "price": "$2,500",
+      "short_description": "An intimate rooftop party to celebrate the newly engaged couple."
+    },
+    {
+      "id": 5,
+      "name": "Retirement Retreat in the Mountains",
+      "image": "https://i.ibb.co/jMYD3mv/retire.jpg",
+      "price": "$5,000",
+      "short_description": "A serene mountain retreat to honor a well-deserved retirement."
+    },
+    {
+      "id": 6,
+      "name": "Whimsical Baby Shower Tea Party",
+      "image": "https://i.ibb.co/H2nGfrd/shower.jpg",
+      "price": "$1,200",
+      "short_description": "A delightful tea party to welcome the upcoming arrival."
+    }
+  ]
+  
