@@ -11,6 +11,7 @@ import {
 import Errorrouter from './componets/Errorrouter';
 import Root from './componets/Root';
 import Home from './componets/Home';
+import DetailsEvents from './componets/DetailsEvents';
 
 
  const router=createBrowserRouter([
@@ -24,6 +25,11 @@ import Home from './componets/Home';
        {
         path:'/',
         element:<Home></Home>
+       },
+       {
+        path:'/event/:Id',
+        element:<DetailsEvents></DetailsEvents>,
+        loader:()=> fetch('events.json')
        }
 
 

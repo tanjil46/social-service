@@ -7,7 +7,7 @@ const Navbar = () => {
             <nav className="flex justify-center space-x-4">
      
         
-      <NavLink  to="" className={({ isActive, isPending }) =>
+      <NavLink  to="/" className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "text-green-500 border-b" : ""}>Home</NavLink>
 
 
