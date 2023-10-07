@@ -7,7 +7,11 @@ const CustomerInfo = ({review}) => {
     return (
         <div>
            
-            <div className="card card-compact w-96 bg-base-100 shadow-xl">
+            <div className="card card-compact w-96 bg-base-100 shadow-xl"  data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0"
+        >
   <figure><img src={image} alt="customers" /></figure>
   <div className="card-body">
     <h2 className="card-title">Name:{name}</h2>

@@ -7,7 +7,7 @@ const Events = ({event}) => {
     return (
         <div>
             
-            <div className="card card-compact bg-base-100 ">
+            <div className="card card-compact bg-base-100 "   data-aos="zoom-out-down" >
   <figure><img className="lg:w-96 h-[300px] w-[100%]  rounded-lg" src={image}alt="events" /></figure>
   <div className="card-body">
     <h2 className="card-title font-bold">{name}</h2>

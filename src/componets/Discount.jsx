@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 
 
@@ -7,7 +8,7 @@ const Discount = () => {
         <div>
          
             <div className="my-3">
-
+                         <Navbar></Navbar>
             <div className="hero min-h-screen" style={{backgroundImage: 'url(./public/image/events3.jpg)'}}>
   <div className="hero-overlay bg-opacity-40"></div>
   <div className="hero-content text-center text-neutral-content">

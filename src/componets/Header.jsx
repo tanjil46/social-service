@@ -55,8 +55,18 @@ const{user,userLogOut}=useContext(AuthContext)
   <div className="navbar-start">
     
 
-  
-    <img className="w-[200px]" src="./public/image/logos.png"></img>
+  <div className="" 
+    data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000"
+
+    > 
+
+  <img className="w-[100px]" src="./public/image/plan.png"></img>
+            <p className="font-bold text-xl   ">Planing<span className="text-2xl text-pink-600"> Paradise</span></p>
+            
+            </div>
+   
    
   </div>
   <div className="navbar-end">
