@@ -32,15 +32,6 @@ const[sucess,setSucess]=useState('')
 
 
 
-
-
- }
-
-
-
-
-
-
    userSingIn(email,password)
    .then((result)=>{
     console.log(result.user)

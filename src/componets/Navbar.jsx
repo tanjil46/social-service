@@ -20,11 +20,11 @@ const Navbar = () => {
 
 
 
-<NavLink to="" className={({ isActive, isPending }) =>
+<NavLink to="/discount" className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "text-green-500 border-b" : ""}>Discount</NavLink>
 
-<NavLink to="" className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "text-green-500 border-b" : ""}>Upcoming Events</NavLink>
+<NavLink to="/about" className={({ isActive, isPending }) =>
+    isPending ? "pending" : isActive ? "text-green-500 border-b" : ""}>About Us</NavLink>
 
 
 

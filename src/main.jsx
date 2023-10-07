@@ -15,7 +15,14 @@ import DetailsEvents from './componets/DetailsEvents';
 import Loginform from './componets/Loginform';
 import Resisterform from './componets/Resisterform';
 import Authprovider from './componets/Authprovider';
+
+
+
 import PrivateRouteOfDetails from './componets/PrivateRouteOfDetails';
+import Discount from './componets/Discount';
+import PrivateRouteOfDiscount from './componets/PrivateRouteOfDiscount';
+import AboutUs from './componets/AboutUs';
+import PrivateRouteOfAboutus from './componets/PrivateRouteOfAboutus';
 
 
  const router=createBrowserRouter([
@@ -43,6 +50,15 @@ import PrivateRouteOfDetails from './componets/PrivateRouteOfDetails';
        {
         path:'/resis',
         element:<Resisterform></Resisterform>
+       },
+       {
+        path:'/discount',
+        element:<PrivateRouteOfDiscount><Discount></Discount></PrivateRouteOfDiscount>
+       },
+       {
+        path:'/about',
+       
+        element:<PrivateRouteOfAboutus><AboutUs></AboutUs></PrivateRouteOfAboutus>
        }
        
 

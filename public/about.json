@@ -1,0 +1,37 @@
+[
+
+
+    {
+        "image": "https://i.ibb.co/g7KCwDs/empl3.jpg",
+        "name": "John Smith",
+        "address": "123 Main Street, Anytown, USA",
+        "role": "Event Coordinator",
+        "phone_number": "+1 (555) 123-4567"
+      },
+
+      {
+  "image": "https://i.ibb.co/7bNwMV8/empl4.jpg",
+  "name": "Emily Davis",
+  "address": "456 Elm Avenue, Another City, USA",
+  "role": "Event Planner",
+  "phone_number": "+1 (555) 987-6543"
+},
+{
+    "image": "https://i.ibb.co/7g1thdK/imagempl1.webp",
+    "name": "Michael Johnson",
+    "address": "789 Oak Road, Townsville, USA",
+    "role": "Event Manager",
+    "phone_number": "+1 (555) 789-0123"
+  },
+  {
+    "image": "https://i.ibb.co/dBgD1XX/empl44.jpg",
+    "name": "Sarah Anderson",
+    "address": "321 Pine Street, Eventville, USA",
+    "role": "Event Coordinator",
+    "phone_number": "+1 (555) 234-5678"
+  }
+  
+
+  
+  
+]
