@@ -12,6 +12,10 @@ import Errorrouter from './componets/Errorrouter';
 import Root from './componets/Root';
 import Home from './componets/Home';
 import DetailsEvents from './componets/DetailsEvents';
+import Loginform from './componets/Loginform';
+import Resisterform from './componets/Resisterform';
+import Authprovider from './componets/Authprovider';
+import PrivateRouteOfDetails from './componets/PrivateRouteOfDetails';
 
 
  const router=createBrowserRouter([
@@ -29,8 +33,16 @@ import DetailsEvents from './componets/DetailsEvents';
        },
        {
         path:'/event/:Id',
-        element:<DetailsEvents></DetailsEvents>,
+        element:<PrivateRouteOfDetails><DetailsEvents></DetailsEvents></PrivateRouteOfDetails>,
         loader:()=> fetch('events.json')
+       },
+       {
+        path:'/login',
+        element:<Loginform></Loginform>
+       },
+       {
+        path:'/resis',
+        element:<Resisterform></Resisterform>
        }
        
 
@@ -75,6 +87,8 @@ import DetailsEvents from './componets/DetailsEvents';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Authprovider>
     <RouterProvider router={router}></RouterProvider>
+    </Authprovider>
   </React.StrictMode>,
 )

@@ -1,6 +1,7 @@
 import Banner from "./Banner";
 import Customerreviwe from "./Customerreviwe";
 import EventsFoodMenu from "./EventsFoodMenu";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Services from "./Services";
 
@@ -13,6 +14,7 @@ const Home = () => {
         <Services></Services>
         <EventsFoodMenu></EventsFoodMenu>
         <Customerreviwe></Customerreviwe>
+        <Footer></Footer>
         </div>
     );
 };
