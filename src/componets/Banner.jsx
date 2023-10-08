@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-
+// import banner from './image/paradise.JPG'
 
 const Banner = () => {
 
@@ -11,7 +11,7 @@ const Banner = () => {
             
        
 
-          <div className="hero min-h-screen" style={{backgroundImage: 'url(./public/image/paradise.JPG)'}} 
+          <div className="hero min-h-screen" style={{backgroundImage: 'url()'}} 
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"

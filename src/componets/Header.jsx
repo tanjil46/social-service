@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "./Authprovider";
-
+import LOGO from './image/palning11.jpg'
 
 
 
@@ -74,7 +74,7 @@ const{user,userLogOut}=useContext(AuthContext)
 
     > 
 
-  <img className="w-[100px]" src="./public/image/plan.png"></img>
+  <img className="w-[100px]" src={LOGO}></img>
             <p className="font-bold text-xl   ">Planing<span className="text-2xl text-pink-600"> Paradise</span></p>
             
             </div>
