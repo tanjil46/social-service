@@ -29,7 +29,7 @@ const[reviews,setReviews]=useState([])
 
 
             {
-                reviews.map(review=><CustomerInfo review={review} key={review.id}></CustomerInfo>)
+                reviews.map((review,idx)=><CustomerInfo review={review} key={idx}></CustomerInfo>)
             }
 
 
