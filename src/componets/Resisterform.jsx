@@ -1,11 +1,11 @@
 import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "./Authprovider";
 
 
 
 const Resisterform = () => {
-
+  const navigate=useNavigate()
  const {createUser}=useContext(AuthContext)
   const[wrong,setWrong]=useState('')
   const[sucess,setSucess]=useState('')
@@ -14,7 +14,7 @@ const Resisterform = () => {
 
 
  const resisterHandler=e=>{
-
+ 
     e.preventDefault()
     // const name=e.target.name.value
     // const photoURL=e.target.photo.value
@@ -22,7 +22,7 @@ const Resisterform = () => {
  const password=e.target.password.value
  console.log(email,password)
  setWrong('')
- 
+ setSucess('')
    if(password.length<6){
    return setWrong('Your Password Must be  Minimum Six characters')
    }
@@ -49,13 +49,14 @@ const Resisterform = () => {
    .then((result)=>{
     console.log(result.user)
       setSucess('Succesfully Resistered')
+      navigate('/')
    })
    .catch(error=>{
     setWrong(error.message)
     
    })
 
-
+   
 
  }
 

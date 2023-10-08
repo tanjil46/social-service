@@ -23,7 +23,7 @@ const[sucess,setSucess]=useState('')
  const email=e.target.email.value
  const password=e.target.password.value
  console.log(email,password)
-
+ 
 
 
 
@@ -42,7 +42,7 @@ const[sucess,setSucess]=useState('')
    .catch(error=>{
     setErrors(error.message)
    })
-
+   
 };
 
 

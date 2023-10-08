@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const AboutSecond = ({about}) => {
 
@@ -20,8 +20,8 @@ const AboutSecond = ({about}) => {
     
   </div>
   <div className="flex justify-center gap-4">
-  <h2 className="text-lg">Address:{address}</h2>
-    <p className="text-xl font-bold">Phone:{phone_number}</p>
+  <h2 className="lg:text-lg">Address:{address}</h2>
+    <p className="lg:text-xl font-bold">Phone:{phone_number}</p>
 
   </div>
 </div>
@@ -40,5 +40,15 @@ const AboutSecond = ({about}) => {
         </div>
     );
 };
+
+
+
+
+AboutSecond.propTypes = {
+ about:PropTypes.object
+};
+
+
+
 
 export default AboutSecond;

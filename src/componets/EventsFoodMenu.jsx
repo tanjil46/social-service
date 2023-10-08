@@ -5,7 +5,9 @@ const EventsFoodMenu = () => {
         <div className="my-8">
            <p className="text-center font-bold text-2xl mb-4">Foods We Serve</p>
             
-            <div className="carousel h-[700px] w-full">
+            <div className="carousel h-[700px] w-full"    data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"   >
   <div id="slide1" className="carousel-item relative w-full">
     <img src="./public/image/food1.webp" className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

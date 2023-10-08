@@ -24,7 +24,7 @@ const{user,userLogOut}=useContext(AuthContext)
      userLogOut()
      .then(()=>{
      navigate('/login')
-    setSucess('succesfully logOut')
+    setSucess('Succesfully logOut')
 
 
 
@@ -35,10 +35,15 @@ const{user,userLogOut}=useContext(AuthContext)
      .catch(error=>{
       setErrors(error.message)
      })
+
+
+     setErrors('')
+     setSucess('')
+     
+     
+
+
  }
-
-
-
 
 
 
@@ -51,8 +56,9 @@ const{user,userLogOut}=useContext(AuthContext)
         <div>
             
 
-            <div className="navbar bg-text-base-100">
-  <div className="navbar-start">
+            <div className="navbar bg-text-base-100 flex lg:justify-between lg:flex-row lg:items-center 
+            flex-col justify-center">
+  <div className=" ">
     
 
   <div className="" 
@@ -69,11 +75,18 @@ const{user,userLogOut}=useContext(AuthContext)
    
    
   </div>
-  <div className="navbar-end">
+  <div className="">
 
  
-  <img className='' src=''/>
-   <p>{}</p>
+  
+  {
+
+     user ? <p className="font-bold bg-orange-500 py-2 px-3 rounded-lg">{user.email}</p>:
+     <div className="">
+     <p className="font-bold bg-white py-2 px-3 rounded-lg">{sucess}</p>
+     <p className="font-bold bg-white py-2 px-3 rounded-lg">{errors}</p>
+     </div>
+    }
 
 
      {

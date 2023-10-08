@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import PropTypes from 'prop-types';
 
 const Events = ({event}) => {
 
@@ -30,5 +30,14 @@ const Events = ({event}) => {
         </div>
     );
 };
+
+ Events.propTypes = {
+    event: PropTypes.object
+  };
+
+
+
+
+
 
 export default Events;
