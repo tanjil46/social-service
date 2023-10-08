@@ -24,7 +24,7 @@ const[reviews,setReviews]=useState([])
     return (
         <div>
           
-          <p className="text-center font-bold text-2xl">Our Some Dear Customers reviwed Us</p>
+          <p className="text-center text-white  font-bold text-2xl  bg-pink-500 py-2 px-4 rounded-lg">Our Some Dear Customers reviwed Us</p>
             <div className="grid grid-cols-1 lg:grid-cols-2 py-6 px-10">
 
 

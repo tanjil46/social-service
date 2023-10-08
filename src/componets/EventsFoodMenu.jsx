@@ -3,7 +3,7 @@
 const EventsFoodMenu = () => {
     return (
         <div className="my-8">
-           <p className="text-center font-bold text-2xl mb-4">Foods We Serve</p>
+           <p className="text-center font-bold text-white bg-pink-500 py-2 px-4 rounded-lg text-2xl mb-4">Foods We Serve</p>
             
             <div className="carousel h-[700px] w-full"    data-aos="flip-left"
           data-aos-easing="ease-out-cubic"

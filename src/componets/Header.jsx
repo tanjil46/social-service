@@ -7,6 +7,7 @@ import { AuthContext } from "./Authprovider";
 
 
 
+
 const Header = () => {
 const navigate=useNavigate()
 const[errors,setErrors]=useState('')
@@ -24,7 +25,15 @@ const{user,userLogOut}=useContext(AuthContext)
      userLogOut()
      .then(()=>{
      navigate('/login')
-    setSucess('Succesfully logOut')
+     
+      setSucess('Succefully logOut')
+
+     
+      
+     
+    
+      
+    
 
 
 
@@ -37,9 +46,6 @@ const{user,userLogOut}=useContext(AuthContext)
      })
 
 
-     setErrors('')
-     setSucess('')
-     
      
 
 
@@ -83,8 +89,12 @@ const{user,userLogOut}=useContext(AuthContext)
 
      user ? <p className="font-bold bg-orange-500 py-2 px-3 rounded-lg">{user.email}</p>:
      <div className="">
-     <p className="font-bold bg-white py-2 px-3 rounded-lg">{sucess}</p>
-     <p className="font-bold bg-white py-2 px-3 rounded-lg">{errors}</p>
+   
+        <p className="font-bold bg-white py-2 px-3 rounded-lg">{sucess}</p>
+        <p className="font-bold bg-white py-2 px-3 rounded-lg">{errors}</p>
+   
+     
+   
      </div>
     }
 

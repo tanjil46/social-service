@@ -30,6 +30,12 @@ const googleLogIn=()=>{
 };
 
 
+const userLogOut=()=>{
+    setLoading(true)
+ return signOut(auth)
+}
+
+
 useEffect(()=>{
    const unSubscribe=onAuthStateChanged(auth,currentUser=>{
      console.log('Current User',currentUser)
@@ -42,12 +48,6 @@ useEffect(()=>{
      }
 
 },[]);
-
-
-const userLogOut=()=>{
-    setLoading(true)
- return signOut(auth)
-}
 
 
 
