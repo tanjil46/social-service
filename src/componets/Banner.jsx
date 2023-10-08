@@ -1,7 +1,16 @@
 import Navbar from "./Navbar";
-// import banner from './image/paradise.JPG'
+import BaNner from './image/2.jpg'
 
 const Banner = () => {
+
+
+
+
+
+  const bannerStyle={
+    
+    backgroundImage:`url(${BaNner})`
+}
 
 
 
@@ -11,7 +20,7 @@ const Banner = () => {
             
        
 
-          <div className="hero min-h-screen" style={{backgroundImage: 'url()'}} 
+          <div className="hero min-h-screen" style={bannerStyle}
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
