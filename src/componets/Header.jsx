@@ -74,7 +74,7 @@ const{user,userLogOut}=useContext(AuthContext)
 
     > 
 
-  <img className="w-[100px]" src={LOGO}></img>
+  <img className="w-[100px] rounded-md" src={LOGO}></img>
             <p className="font-bold text-xl   ">Planing<span className="text-2xl text-pink-600"> Paradise</span></p>
             
             </div>
