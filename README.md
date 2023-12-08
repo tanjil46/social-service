@@ -4,7 +4,7 @@
  ### User Can Evnet By clicking event details 
 
 ## Technologies 
-#### React, Node,Firebase,Tailwind css
+#### React,Firebase,Tailwind css
 
 
  [Live Link](https://social-events-3507f.web.app/)
